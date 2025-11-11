@@ -1,4 +1,4 @@
-# Hi, I'm Gheorghi Ostapenco 👋
+# Hi, I'm Gheorghi Ostapenco 
 
 ![DevOps Engineer | Moldova](https://img.shields.io/badge/DevOps%20Engineer-Moldova%20%F0%9F%87%B2%F0%9F%87%A9-4A90E2?style=for-the-badge&logo=terraform&logoColor=white)
 ![15+ years in QA/PM → DevOps](https://img.shields.io/badge/Experience-15%2B%20years%20QA%2FPM%20→%20DevOps-2ECC71?style=for-the-badge)
@@ -21,7 +21,7 @@ My practical experience is focused on **building and managing the full DevOps li
 
 | Category | Tools & Technologies |
 |---------|----------------------|
-| ☁️ **Cloud Platforms** | AWS (EC2, S3, VPC, IAM, CloudWatch), **DigitalOcean** |
+| ☁️ **Cloud Platforms** | **AWS** (EC2, S3, VPC, IAM, CloudWatch), **DigitalOcean** |**GCP**
 | 🛠 **Infrastructure as Code (IaC)** | **Terraform** (modules, state backends, remote execution, multi-env) |
 | ⚙️ **Configuration Management** | **Ansible** (Playbooks, Roles, Inventory, Ansible Tower basics) |
 | 📦 **CI/CD & Containers** | **GitHub Actions**, **Docker**, **Docker Compose**, GitOps workflows |
