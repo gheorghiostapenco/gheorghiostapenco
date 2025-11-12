@@ -83,10 +83,6 @@ I am **currently seeking a new role** as:
 
 ---
 
-> *This profile is 100% code-managed with Terraform & GitHub Actions. Even my README is automated.*
-
----
-
 **P.S.** If you're hiring for **DevOps**, **SRE**, or **Platform Engineering** roles — let's talk!  
 Drop me a message on [LinkedIn](https://linkedin.com/in/gostapenco) or star my **Budget Tracker** repo to say hi.
 
