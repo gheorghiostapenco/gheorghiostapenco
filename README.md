@@ -26,7 +26,7 @@ My practical experience is focused on **building and managing the full DevOps li
 | ⚙️ **Configuration Management** | **Ansible** (Playbooks, Roles, Inventory, Ansible Tower basics) |
 | 📦 **CI/CD & Containers** | **GitHub Actions**, **Docker**, **Docker Compose**, GitOps workflows |
 | 📊 **Load & Performance Testing** | **K6** (scripting, thresholds, distributed testing) |
-| 🧩 **Processes & Methodologies** | **Agile**, **Scrum** (`PSM I`, `PSPO I`), **Release Management**, `ISTQB Certified Tester` |
+| 🧩 **Processes & Methodologies** | **Agile**, **Scrum** (`PSM I`, `PSPO I`),`ISTQB Certified Tester` |
 
 ---
 
