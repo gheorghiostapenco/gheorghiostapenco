@@ -38,7 +38,7 @@ I am actively **building and automating real-world projects** to apply these ski
 
 **Role:** DevOps Engineer / Toolsmith
 **Focus:** Infrastructure Automation, Cost Optimization (FinOps), Virtualization
-**Repository:** [[Link to GitHub](https://github.com/gheorghiostapenco/vm-opennebula-migrator)]
+**Repository:** [[Link](https://github.com/gheorghiostapenco/vm-opennebula-migrator)]
 
 ### The Challenge: Escaping the "Broadcom Tax"
 Following Broadcom's acquisition of VMware, many enterprises faced a sudden shift from perpetual licenses to costly subscription models (3x–10x cost increases). Organizations needed a way to migrate workloads to open-source alternatives like OpenNebula (KVM) to regain control of their infrastructure budgets.
