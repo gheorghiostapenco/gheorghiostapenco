@@ -34,18 +34,50 @@ My practical experience is focused on **building and managing the full DevOps li
 
 I am actively **building and automating real-world projects** to apply these skills.
 
-### 🚀 **Main Portfolio Project: Budget Tracker App**
-> A **full-stack personal finance app** deployed on infrastructure **100% managed by code**.
+### Automated Infrastructure Migration Suite: VMware to OpenNebula
+Role: DevOps Engineer / Toolsmith Focus: Infrastructure Automation, Cost Optimization (FinOps), Virtualization Repository: [[Link to GitHub](https://github.com/gheorghiostapenco/vm-opennebula-migrator)]
 
-- **Frontend**: React + Vite
-- **Backend**: Node.js + Express + PostgreSQL
-- **Infrastructure**: AWS + Terraform (VPC, EC2, RDS, S3, Route53)
-- **Config Mgmt**: Ansible (server hardening, app deployment)
-- **CI/CD**: GitHub Actions (test → build → deploy → notify)
-- **Monitoring**: CloudWatch + custom K6 load tests
-- **Source**: [https://github.com/gheorghiostapenco/budget-tracker-tf-ansible-gha](https://github.com/gheorghiostapenco/budget-tracker-tf-ansible-gha)
+The Challenge: Escaping the "Broadcom Tax"
+Following Broadcom's acquisition of VMware, many enterprises faced a sudden shift from perpetual licenses to costly subscription models (3x–10x cost increases). Organizations needed a way to migrate workloads to open-source alternatives like OpenNebula (KVM) to regain control of their infrastructure budgets.
 
-> *All infra, config, and pipelines — defined as code. Zero manual clicks.*
+However, migrating virtual machines between hypervisors is technically complex. It involves incompatible disk formats (VMDK vs. QCOW2), different API endpoints, and high risks of data corruption. Manual migration is unscalable and error-prone.
+
+The Solution
+I engineered a Python-based CLI automation tool that orchestrates the end-to-end migration pipeline. It serves as a bridge between proprietary and open-source stacks, treating infrastructure migration as a reliable, repeatable software process rather than a manual sysadmin task.
+
+Technical Architecture
+The tool implements a strict ETL (Extract, Transform, Load) pipeline designed for reliability:
+
+Extract (API & Streaming): Connects to vCenter via pyvmomi to inspect VM metadata and streams disk data to a staging environment using ovftool.
+
+Transform (Disk Engineering): logic automates qemu-img to transmute monolithic VMware disks (.vmdk) into sparse, KVM-native QCOW2 images, optimizing for storage efficiency.
+
+Load (Infrastructure as Code): Interacts with the OpenNebula XML-RPC API (pyone) to register the new artifacts, effectively re-templating the VM for the new hypervisor.
+
+SRE & Engineering Highlights
+This project was built with Site Reliability Engineering (SRE) principles at its core:
+
+Risk Mitigation: Implemented "Pre-flight Checks" and "Dry Run" modes (--mode dry-run) to validate connectivity, storage capacity, and tool availability before touching any production data.
+
+Observability: comprehensive logging architecture (Console + File rotation) ensures that if a 500GB migration fails at 99%, the root cause is immediately traceable.
+
+Modular Design: The codebase follows clean architecture, separating "Connectors" (API wrappers) from "Core Logic" (Conversion engines), making it easy to swap out hypervisors or add new targets in the future.
+
+Security: strict separation of configuration (YAML) and secrets (Environment Variables) following 12-Factor App methodologies.
+
+Tech Stack
+Core Language: Python 3.12
+
+Virtualization APIs: PyVmomi (vSphere), PyOne (OpenNebula/XML-RPC)
+
+System Tools: QEMU/KVM tools (qemu-img), VMware OVF Tool
+
+CLI Framework: argparse (Standard Library stability)
+
+Config Management: YAML, DotEnv
+
+Impact
+This tool reduces the time-to-migrate for a standard server from hours of manual oversight to a single CLI command, effectively unblocking infrastructure cost-reduction strategies.
 
 ---
 
