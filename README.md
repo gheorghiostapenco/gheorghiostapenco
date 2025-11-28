@@ -21,16 +21,16 @@ My practical experience is focused on **building and managing the full DevOps li
 
 | Category | Tools & Technologies |
 |---------|----------------------|
-| ☁️ **Cloud Platforms** | **AWS** (EC2, S3, VPC, IAM, CloudWatch), **DigitalOcean** |**GCP**
-| 🛠 **Infrastructure as Code (IaC)** | **Terraform** (modules, state backends, remote execution, multi-env) |
-| ⚙️ **Configuration Management** | **Ansible** (Playbooks, Roles, Inventory, Ansible Tower basics) |
-| 📦 **CI/CD & Containers** | **GitHub Actions**, **Docker**, **Docker Compose**, GitOps workflows |
-| 📊 **Load & Performance Testing** | **K6** (scripting, thresholds, distributed testing) |
-| 🧩 **Processes & Methodologies** | **Agile**, **Scrum** (`PSM I`, `PSPO I`),`ISTQB Certified Tester` |
+| **Cloud Platforms** | **AWS** (EC2, S3, VPC, IAM, CloudWatch), **DigitalOcean** |**GCP**
+| **Infrastructure as Code (IaC)** | **Terraform** (modules, state backends, remote execution, multi-env) |
+| **Configuration Management** | **Ansible** (Playbooks, Roles, Inventory, Ansible Tower basics) |
+| **CI/CD & Containers** | **GitHub Actions**, **Docker**, **Docker Compose**, GitOps workflows |
+| **Load & Performance Testing** | **K6** (scripting, thresholds, distributed testing) |
+| **Processes & Methodologies** | **Agile**, **Scrum** (`PSM I`, `PSPO I`),`ISTQB Certified Tester` |
 
 ---
 
-## 🔭 Current Focus: Full-Stack Automation in Action
+## Current Focus: Full-Stack Automation in Action
 
 I am actively **building and automating real-world projects** to apply these skills.
 
@@ -75,21 +75,21 @@ This tool reduces the time-to-migrate for a standard server from hours of manual
 
 ---
 
-## 📫 Let's Connect
+## Let's Connect
 
 I am **currently seeking a new role** as:
 - **DevOps Engineer**
 - **Platform Engineer**
 - **Release Engineer**
 
-📍 **Location**: Chișinău, Moldova (open to **remote** or **hybrid** in EU)  
-⏰ **Time Zone**: EET (UTC+2) / EEST (UTC+3)  
-🔗 **LinkedIn**: [linkedin.com/in/gostapenco](https://linkedin.com/in/gostapenco)
-📧 **Email**: [gheorghi.ostapenco@gmail.com](mailto:gheorghi.ostapenco@gmail.com)
+**Location**: Chișinău, Moldova (open to **remote** or **hybrid** in EU)  
+**Time Zone**: EET (UTC+2) / EEST (UTC+3)  
+**LinkedIn**: [linkedin.com/in/gostapenco](https://linkedin.com/in/gostapenco)
+**Email**: [gheorghi.ostapenco@gmail.com](mailto:gheorghi.ostapenco@gmail.com)
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 ![Gheorghi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=gheorghiostapenco&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
@@ -99,7 +99,7 @@ I am **currently seeking a new role** as:
 
 ---
 
-## 🏆 Certifications
+## Certifications
 
 | Badge | Certification |
 |-------|---------------|
