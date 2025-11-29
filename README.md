@@ -21,10 +21,10 @@ My practical experience is focused on **building and managing the full DevOps li
 
 | Category | Tools & Technologies |
 |---------|----------------------|
-| **Cloud Platforms** | **AWS** (EC2, S3, VPC, IAM, CloudWatch), **DigitalOcean**, **GCP**, **Oracle Cloud**
-| **Infrastructure as Code (IaC)** | **Terraform** (modules, state backends, remote execution, multi-env)
-| **Configuration Management** | **Ansible** (Playbooks, Roles, Inventory, Ansible Tower basics)|
-| **CI/CD & Containers** | **GitHub Actions**, **Docker**, **Docker Compose**, **GitOps workflows**, **Jenkins**
+| **Cloud Platforms** | **AWS**, **DigitalOcean**, **GCP**, **Oracle Cloud**
+| **Infrastructure as Code (IaC)** | **Terraform**
+| **Configuration Management** | **Ansible**
+| **CI/CD & Containers** | **GitHub Actions**, **Docker**, **GitOps workflows**, **Jenkins**
 | **Load & Performance Testing** | **K6** (scripting, thresholds, distributed testing)
 | **Processes & Methodologies** | **Agile**, **Scrum** (`PSM I`, `PSPO I`),`ISTQB Certified Tester`
 
