@@ -113,5 +113,3 @@ I am **currently seeking a new role** as:
 Drop me a message on [LinkedIn](https://linkedin.com/in/gostapenco) or star my repos to say hi.
 
 ---
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H11OZJ72)
